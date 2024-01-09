@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octanet Task 1</title>
+    <link rel="icon" href="img1.jpg">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <nav id="galaxy-navbar">
+            <a href="index.html"><img src="img1.jpg" alt="Galaxxy Interior" style="border-radius: 10px;"></a>
+            <ul>
+                <li></li>
+                <li><a href="index.html">Home<hr class="active"></a></li>
+                <li><a href="#">About Us<hr></a></li>
+                <li><a href="#">Recent Project<hr></a></li>
+                <li><a href="#">Contact Us<hr></a></li>
+                <li><a href="#">FAQ<hr></a></li>
+                <li><a href="#">Login<hr></a></li>
+            </ul>
+            <div id="search-button">
+                <button id="galaxy-search" onclick="mySearchBox()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button id="galaxy-menu" onclick="myMenuBox()"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+        <div id="searchdiv">
+            <div id="searchinput">
+                <input type="text" name="searchbox" id="searchbox" placeholder="Enter text to search" maxlength="50">
+                <button id="searchboxText" onclick="searchboxText()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <div id="menudiv">
+            <div id="submenu">
+                <ol>
+                    <li><a href="index.html">Home</a><hr></li>
+                    <li><a href="#">About Us</a><hr></li>
+                    <li><a href="#">Recent Project</a><hr></li>
+                    <li><a href="#">Contact Us</a><hr></li>
+                    <li><a href="#">FAQ</a><hr></li>
+                    <li><a href="#">Login<hr></a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="land">
+            <video autoplay loop>
+                <source src="car.mp4" type="video/mp4">
+            </video>
+            <div id="landbox">
+                <p>Looking For a <br><span>Powerful</span> Car?<br>We have <span>CAR</span> for everyone</p>
+                <a href="#section1"><button>Discover Cars</button></a>
+            </div>
+        </section>
+        <section id="section1">
+            <div id="carbox">
+                <div id="carimg">
+                    <img src="car5.png" id="carimage">
+                    <p id="carimgname">Mercedes Benz AMG GT</p>
+                </div>
+            </div>
+            <div id="carleft">
+                <button id="redcar" onclick="redcar()"><img src="car1.png"></button>
+                <button id="yellowcar" onclick="yellowcar()"><img src="car2.png"></button>
+                <button id="bluecar" onclick="bluecar()"><img src="car3.png"></button>
+                <button id="blackcar" onclick="blackcar()"><img src="car6.png"></button>
+                <button id="orangecar" onclick="orangecar()"><img src="car4.png"></button>
+                <button id="graycar" onclick="graycar()"><img src="car5.png"></button>
+                <button id="purpelcar" onclick="purpelcar()"><img src="car7.png"></button>
+                <button id="greencar" onclick="greencar()"><img src="car8.png"></button>
+            </div>
+        </section>
+        <section id="section2">
+            <div id="roadimg">
+                <p id="roadtxt1">We are </p>
+                <p id="roadtxt2">Heritage Cars </p>
+                <img src="car9.png" id="roadcarimg1">
+                <img src="car10.png" id="roadcarimg2">
+            </div>
+        </section>
+        <section id="section3">
+            <div id="carcompany">
+                <div id="carcompany1">
+                    <div id="carcircle1">
+                        <div id="carcircletxt1">
+                            <h1>Who we are?</h1><br>
+                            <p>"Heritage Cars" is a term typically used to refer to classic or vintage vehicles that hold historical significance for a particular automotive brand. These cars embody the tradition, craftsmanship, and design ethos of a company, representing its legacy in the automotive industry. Heritage cars are more than just nostalgic artifacts; they serve as strategic assets for companies, contributing to brand identity, community engagement, and marketing strategies. Leveraging the timeless appeal of these vehicles, companies can connect with enthusiasts, inspire contemporary designs, and position themselves in the market while preserving their rich automotive heritage.</p>
+                        </div>
+                    </div>
+                    <div id="carcircle2">
+                        <img src="car4.png">
+                    </div>
+                </div>
+                <div id="carcompany2">
+                    <div id="carcircle3">
+                        <div id="carcircletxt2">
+                            <h1>What we do?</h1><br>
+                            <p>Heritage cars play a pivotal role in an automotive company's strategy by embodying the brand's legacy and identity. These iconic vehicles connect with enthusiasts through events, fostering a global community. Their timeless designs inspire contemporary innovation, appealing to a diverse customer base seeking both nostalgia and modernity. Strategically, heritage cars drive marketing success through limited editions and reimagined classics, setting brands apart in a competitive market. </p>
+                        </div>
+                    </div>
+                    <div id="carcircle4">
+                        <img src="car6.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="end">
+            <div id="endbox">
+                <p><span>Connected</span> by <span>Performance</span> <br><span>Less</span> for search <br><span>More</span> to discover <br><span>Fierce</span> to drive</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer1">
+            <div id="footer-box12">
+                <div id="footer-box22">
+                    <ul>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer2">
+            <div id="footericon">
+                <p><span>h</span><span>e</span><span>r</span><span>i</span><span>t</span><span>a</span><span>g</span><span>e</span><span>&nbsp;</span></p>
+                <p><span>c</span><span>a</span><span>r</span><span>s</span></p>
+            </div>
+            <div id="footercopy">
+                <p>Copyright&#169; Bekrom Roy, 2024 <br> All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/22884efc59.js" crossorigin="anonymous"></script>
+    <script>
+        function mySearchBox(){
+            var x = document.getElementById("searchdiv");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "block";
+            }
+        }
+
+        function myMenuBox(){
+            var x = document.getElementById("menudiv");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "block";
+            }
+        }
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+                document.getElementById("galaxy-navbar").style.padding = "0px 40px";
+            } else {
+                document.getElementById("galaxy-navbar").style.padding = "10px 40px";
+            }
+        }
+        var carimg = document.getElementById("carimage");
+        var carname = document.getElementById("carimgname");
+        var carbox = document.getElementById("carbox");
+        /*var carclr = [
+            "radial-gradient(circle, rgba(255,255,255,0.9551470246301645) 0%, rgba(238,43,47,1) 66%)",
+            "radial-gradient(circle, rgba(255,255,255,0.9551470246301645) 0%, rgba(209,151,0,1) 66%)",
+            "radial-gradient(circle, rgba(255,255,255,0.9551470246301645) 0%, rgba(123,154,184,1) 66%)",
+            "radial-gradient(circle, rgba(255,255,255,0.9551470246301645) 0%, rgba(245,101,1,1) 66%)",
+            "radial-gradient(circle, rgba(255,255,255,0.9551470246301645) 0%, rgba(87,86,91,1) 66%)",
+            "radial-gradient(circle, rgba(255,255,255,0.9551470246301645) 0%, rgba(16,16,20,1) 80%)",
+            "radial-gradient(circle, rgba(255,255,255,0.9551470246301645) 0%, rgba(116,43,150,1) 75%)",
+            "radial-gradient(circle, rgba(255,255,255,0.9551470246301645) 0%, rgba(96,151,0,1) 66%)"
+        ];*/
+
+        function greencar(){
+            carimg.src="car8.png";
+            carname.innerHTML="Nissan 370Z";
+            carbox.style.background = carclr[7];
+        }
+        function purpelcar(){
+            carimg.src="car7.png";
+            carname.innerHTML="Dodge Challenger 2010";
+            carbox.style.background = carclr[6];
+        }
+        function graycar(){
+            carimg.src="car5.png";
+            carname.innerHTML="Mercedes Benz AMG GT";
+            carbox.style.background = carclr[4];
+        }
+        function orangecar(){
+            carimg.src="car4.png";
+            carname.innerHTML="Jaguar C-X75";
+            carbox.style.background = carclr[3];
+        }
+        function blackcar(){
+            carimg.src="car6.png";
+            carname.innerHTML="Rolls Royce Ghost";
+            carbox.style.background = carclr[5];
+        }
+        function bluecar(){
+            carimg.src="car3.png";
+            carname.innerHTML="Cadillac Coupe de Ville";
+            carbox.style.background = carclr[2];
+        }
+        function yellowcar(){
+            carimg.src="car2.png";
+            carname.innerHTML="Audi Sport Quattro";
+            carbox.style.background = carclr[1];
+        }
+        function redcar(){
+            carimg.src="car1.png";
+            carname.innerHTML="Cadillac Series 60";
+            carbox.style.background = carclr[0];
+        }
+
+    </script>
+</body>
+</html>
